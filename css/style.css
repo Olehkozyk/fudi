@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body{
+	font: 400 14px/1.2 Lato, sans-serif;
+	color: #ffff;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1180px;
+	
+}
+
+/* Typography */
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	padding: 17px 79px 24px 79px;
+	border: 3px solid#ffff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 17.85px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.025em;
+	transform: scaleY(1.0085);
+
+}
+.ba-button:hover{
+	background: #ccc;
+	border-color: transparent;
+	color: black;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-menu{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+.ba-menu a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font: 700 14px/2.14 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	letter-spacing: .02em;
+}
+.ba-menu li + li{
+	padding-left: 29px;
+}
+.ba-menu a:hover{
+	color: red;
+}
+.ba-menu a img:hover{
+	opacity: 0.5;
+}
+.ba-logo{
+	margin-left: -29px;
+	display: block;
+}
+
+.ba-header{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+.ba-header-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-intro{
+	background: #000 url(../img/bg-first-section.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 352px;
+    padding-bottom: 240px;
+	color: #fff;
+	text-align: center;	
+}
+.ba-intro-tittle-first{
+	display: inline-block;
+	font-family: 'Times New Roman', serif;
+	font-size: 36px;
+	line-height: 0.831;
+	font-weight: 700;
+	color:  #ffffff;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	opacity: 0.7;
+	padding-left: 28px;
+	
+}
+.ba-intro-tittle{
+	font:700 100px/1 'Lato', sans-serif;
+	padding: 10px 0px 30px 0px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	letter-spacing: 0.05em;
+}
+.ba-intro-paragraf {
+	font:300 14px/1.2 'Lato', sans-serif;
+	padding-top: 38px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	letter-spacing: 0.05em;
+}
+.ba-intro-paragraf a{
+	color: #fff;
+	font:700 14px/1.2 'Lato', sans-serif;
+	letter-spacing: 0.05em;
+}
+.ba-intro-paragraf a:hover{
+	color: red;
+}
